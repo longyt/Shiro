@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-12-18 18:01:28 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.zking.Entity.Student" table="STUDENT">
+        <id name="sid" type="java.lang.Integer">
+            <column name="SID" />
+            <generator class="assigned" />
+        </id>
+        <property name="age" type="java.lang.Integer">
+            <column name="AGE" />
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="SEX" />
+        </property>
+        <property name="sname" type="java.lang.String">
+            <column name="SNAME" />
+        </property>
+    </class>
+</hibernate-mapping>
